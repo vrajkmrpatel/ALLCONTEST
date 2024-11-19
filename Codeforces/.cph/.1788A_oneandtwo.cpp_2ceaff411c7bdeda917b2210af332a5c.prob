@@ -1,0 +1,1 @@
+{"name":"Local: 1788A_oneandtwo","url":"e:\\PROGRAMMING\\DSA\\DSA STRIVER\\Codeforces\\1788A_oneandtwo.cpp","tests":[{"id":1731669403757,"input":"3\n6\n2 2 1 2 1 2\n3\n1 2 1\n4\n1 1 1 1","output":"2\n-1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\PROGRAMMING\\DSA\\DSA STRIVER\\Codeforces\\1788A_oneandtwo.cpp","group":"local","local":true}
