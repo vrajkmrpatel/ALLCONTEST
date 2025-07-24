@@ -1,0 +1,1 @@
+{"name":"Local: shortestRoute1","url":"e:\\PROGRAMMING\\DSA\\ALLCONTESTS\\CSES\\shortestRoute1.cpp","tests":[{"id":1748836266898,"input":"3 4\n1 2 6\n1 3 2\n3 2 3\n1 3 4","output":"0 5 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\PROGRAMMING\\DSA\\ALLCONTESTS\\CSES\\shortestRoute1.cpp","group":"local","local":true}

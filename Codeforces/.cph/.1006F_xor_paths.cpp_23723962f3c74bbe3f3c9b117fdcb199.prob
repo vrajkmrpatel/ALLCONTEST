@@ -1,0 +1,1 @@
+{"name":"Local: 1006F_xor_paths","url":"e:\\PROGRAMMING\\DSA\\ALLCONTESTS\\Codeforces\\1006F_xor_paths.cpp","tests":[{"id":1748363563157,"input":"3 3 11\n2 1 5\n7 10 0\n12 6 4","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\PROGRAMMING\\DSA\\ALLCONTESTS\\Codeforces\\1006F_xor_paths.cpp","group":"local","local":true}
