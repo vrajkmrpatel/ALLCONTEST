@@ -4,34 +4,32 @@ using namespace std;
 
 int solve(vector<int> &arr, int n)
 {
-      int left = 0;
-      int right = n - 1;
-
-      int left_prod = 1;
-      int right_prod = 1;
-
-      while (left < right)
+      int totalTwos = 0;
+      for (int i = 0; i < n; i++)
       {
-
-            if (left_prod < right_prod)
+            if (arr[i] == 2)
             {
-                  left_prod *= arr[left];
-                  left++;
-            }
-            else if (left_prod >= right_prod)
-            {
-                  right_prod *= arr[right];
-                  right--;
+                  totalTwos++;
             }
       }
-      if (left_prod != right_prod)
+
+      int leftTwos = 0;
+      int rightTwos = totalTwos;
+
+      for (int i = 1; i < n; i++)
       {
-            return -1;
+            if (arr[i - 1] == 2)
+            {
+                  leftTwos++;
+                  rightTwos--;
+            }
+
+            if (leftTwos == rightTwos)
+            {
+                  return i;
+            }
       }
-      else
-      {
-            return left;
-      }
+      return -1;
 }
 int main()
 {
