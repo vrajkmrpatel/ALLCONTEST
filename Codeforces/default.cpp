@@ -1,18 +1,22 @@
-#include<bits/stdc++.h>
-
-typedef long long ll;
+#include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-      int t;
-      cin>>t;
+#define int long long
+#define mod1 1000000007
+#define yes cout << "YES\n";
+#define no cout << "NO\n";
+#define nl cout << "\n";
 
-      while(t--)
+int32_t main()
+{
+      ios_base::sync_with_stdio(false);
+      cin.tie(NULL);
+      cout.tie(NULL);
+
+      int t;
+      cin >> t;
+      while (t--)
       {
-            ll n;
-            cin>>n;
-            
             
       }
       return 0;
